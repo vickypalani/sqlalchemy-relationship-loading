@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sqlalchemy-session"
+version = "0.1.0"
+description = "Covers the basics of SQLAlchemy"
+authors = ["Palaniyappan Ramanathan <vickypalaniappan12@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.30"
+asyncpg = "^0.29.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
